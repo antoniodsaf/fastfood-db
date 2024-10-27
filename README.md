@@ -1,6 +1,6 @@
 # Banco de dados - RDS - PostgreSQL (fastfood-app)
 
-Este repositorio contem configuracoes feitas em terraforms para subir uma instancia postgres na AWS (utilizando o servico Amazon RDS).
+Este repositorio contem informacoes relevantes sobre o banco de dados da aplicacao fastfood-app e codigo terraforms responsavel por subir uma instancia de postgres na AWS (utilizando o servico Amazon RDS).
 
 ## Detalhes do RDS
 
@@ -24,6 +24,6 @@ Detalhes da instancia:
 
 - **Monitoramento de Desempenho**: Com o Amazon CloudWatch, você pode monitorar o desempenho do seu banco de dados PostgreSQL e configurar alarmes para detectar e responder rapidamente a problemas.
 
-## Diagrama
+## Diagrama de entidades do fastfood-app
 
 ![Diagrama de entidade e relacionamento](/docs/ER-diagram.png)
