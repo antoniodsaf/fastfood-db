@@ -26,4 +26,4 @@ Detalhes da instancia:
 
 ## Diagrama
 
-![Diagrama de entidade e relacionamento](/doc/ER-diagram.JPG)
+![Diagrama de entidade e relacionamento](/doc/ER-diagram.png)
