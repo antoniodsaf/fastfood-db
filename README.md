@@ -12,6 +12,22 @@ Detalhes da instancia:
 - IDs do grupo de segurança da VPC (**VPC Security Group IDs**):     sg-0af8c2b09564180ff, sg-0cc77bd74b5a59e66
 - Nome do grupo de sub-redes do DB (**DB Subnet Group Name**): fastfood-db-subnet-group
 
+## Motivação de adotar um banco de dados relacional (postgresql)
+
+- **Escalabilidade**: PostgreSQL pode lidar com grandes volumes de dados e usuários simultâneos, o que é essencial para um aplicativo de fast food que pode ter muitos pedidos acontecendo ao mesmo tempo.
+
+- **Flexibilidade**: Suporta uma variedade de tipos de dados, incluindo JSON, permitindo maior flexibilidade para armazenar dados complexos, como preferências do cliente e histórico de pedidos.
+
+- **Integridade dos Dados**: Bancos de dados relacionais garantem a integridade e a consistência dos dados através de transações ACID (Atomicidade, Consistência, Isolamento, Durabilidade).
+
+- **Transações ACID**: Garantindo a consistência e integridade dos dados, essencial para operações críticas como a gestão de pedidos e inventário.
+
+- **Extensibilidade**: Você pode adicionar novas funcionalidades, como tipos de dados personalizados e funções, que podem ser úteis para integrar novas características ao seu aplicativo.
+
+- **Consultas SQL**: Utiliza SQL, uma linguagem de consulta poderosa e amplamente conhecida que facilita operações complexas, análises e consultas ad-hoc
+
+- **Comunidade e Suporte**: PostgreSQL tem uma comunidade ativa e extensa documentação, facilitando a resolução de problemas e a implementação de novas funcionalidades.
+
 ## Motivação de utilizar Amazon RDS com pgsql
 
 - **Facilidade de Gestão**: O Amazon RDS automatiza tarefas rotineiras de banco de dados, como provisionamento, aplicação de patches, backup e recuperação, permitindo que você se concentre em suas aplicações.
